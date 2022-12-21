@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18246000295371B40054193B /* Task_Watch_Day-8 Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 18245FFF295371B40054193B /* Task_Watch_Day-8 Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		18246005295371B40054193B /* Task_Watch_Day_8App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18246004295371B40054193B /* Task_Watch_Day_8App.swift */; };
+		18246007295371B40054193B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18246006295371B40054193B /* ContentView.swift */; };
+		18246009295371B60054193B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18246008295371B60054193B /* Assets.xcassets */; };
+		1824600C295371B60054193B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1824600B295371B60054193B /* Preview Assets.xcassets */; };
+		18246018295372050054193B /* Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18246016295372050054193B /* Task.xcdatamodeld */; };
+		1885CBF8295372AE00830CAC /* PersistenceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885CBF7295372AE00830CAC /* PersistenceContainer.swift */; };
+		1885CBFC295375A100830CAC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885CBFB295375A100830CAC /* Home.swift */; };
+		1885CC00295379F300830CAC /* AddItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885CBFF295379F300830CAC /* AddItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18246001295371B40054193B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18245FF3295371B30054193B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18245FFE295371B40054193B;
+			remoteInfo = "Task_Watch_Day-8 Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18246012295371B60054193B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				18246000295371B40054193B /* Task_Watch_Day-8 Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18245FF9295371B40054193B /* Task_Watch_Day-8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task_Watch_Day-8.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18245FFF295371B40054193B /* Task_Watch_Day-8 Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task_Watch_Day-8 Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18246004295371B40054193B /* Task_Watch_Day_8App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_Watch_Day_8App.swift; sourceTree = "<group>"; };
+		18246006295371B40054193B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18246008295371B60054193B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1824600B295371B60054193B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18246017295372050054193B /* Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Task.xcdatamodel; sourceTree = "<group>"; };
+		1885CBF7295372AE00830CAC /* PersistenceContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceContainer.swift; sourceTree = "<group>"; };
+		1885CBFB295375A100830CAC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1885CBFF295379F300830CAC /* AddItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18245FFC295371B40054193B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18245FF2295371B30054193B = {
+			isa = PBXGroup;
+			children = (
+				18246003295371B40054193B /* Task_Watch_Day-8 Watch App */,
+				18245FFA295371B40054193B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18245FFA295371B40054193B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18245FF9295371B40054193B /* Task_Watch_Day-8.app */,
+				18245FFF295371B40054193B /* Task_Watch_Day-8 Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18246003295371B40054193B /* Task_Watch_Day-8 Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				18246004295371B40054193B /* Task_Watch_Day_8App.swift */,
+				18246006295371B40054193B /* ContentView.swift */,
+				1885CBFE295375C500830CAC /* ViewModel */,
+				1885CBFD295375A800830CAC /* Model */,
+				1885CBFA2953759200830CAC /* View */,
+				1885CBF7295372AE00830CAC /* PersistenceContainer.swift */,
+				18246016295372050054193B /* Task.xcdatamodeld */,
+				18246008295371B60054193B /* Assets.xcassets */,
+				1824600A295371B60054193B /* Preview Content */,
+			);
+			path = "Task_Watch_Day-8 Watch App";
+			sourceTree = "<group>";
+		};
+		1824600A295371B60054193B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1824600B295371B60054193B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1885CBFA2953759200830CAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1885CBFB295375A100830CAC /* Home.swift */,
+				1885CBFF295379F300830CAC /* AddItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1885CBFD295375A800830CAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1885CBFE295375C500830CAC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18245FF8295371B40054193B /* Task_Watch_Day-8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18246013295371B60054193B /* Build configuration list for PBXNativeTarget "Task_Watch_Day-8" */;
+			buildPhases = (
+				18245FF7295371B40054193B /* Resources */,
+				18246012295371B60054193B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18246002295371B40054193B /* PBXTargetDependency */,
+			);
+			name = "Task_Watch_Day-8";
+			productName = "Task_Watch_Day-8";
+			productReference = 18245FF9295371B40054193B /* Task_Watch_Day-8.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		18245FFE295371B40054193B /* Task_Watch_Day-8 Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1824600F295371B60054193B /* Build configuration list for PBXNativeTarget "Task_Watch_Day-8 Watch App" */;
+			buildPhases = (
+				18245FFB295371B40054193B /* Sources */,
+				18245FFC295371B40054193B /* Frameworks */,
+				18245FFD295371B40054193B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Task_Watch_Day-8 Watch App";
+			productName = "Task_Watch_Day-8 Watch App";
+			productReference = 18245FFF295371B40054193B /* Task_Watch_Day-8 Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18245FF3295371B30054193B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					18245FF8295371B40054193B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					18245FFE295371B40054193B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 18245FF6295371B30054193B /* Build configuration list for PBXProject "Task_Watch_Day-8" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18245FF2295371B30054193B;
+			productRefGroup = 18245FFA295371B40054193B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18245FF8295371B40054193B /* Task_Watch_Day-8 */,
+				18245FFE295371B40054193B /* Task_Watch_Day-8 Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18245FF7295371B40054193B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18245FFD295371B40054193B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1824600C295371B60054193B /* Preview Assets.xcassets in Resources */,
+				18246009295371B60054193B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18245FFB295371B40054193B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18246018295372050054193B /* Task.xcdatamodeld in Sources */,
+				1885CBF8295372AE00830CAC /* PersistenceContainer.swift in Sources */,
+				1885CC00295379F300830CAC /* AddItem.swift in Sources */,
+				1885CBFC295375A100830CAC /* Home.swift in Sources */,
+				18246007295371B40054193B /* ContentView.swift in Sources */,
+				18246005295371B40054193B /* Task_Watch_Day_8App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18246002295371B40054193B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18245FFE295371B40054193B /* Task_Watch_Day-8 Watch App */;
+			targetProxy = 18246001295371B40054193B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1824600D295371B60054193B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1824600E295371B60054193B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		18246010295371B60054193B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Task_Watch_Day-8 Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 65Y36WN836;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Task_Watch_Day-8";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alen.app.Task-Watch-Day-8.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		18246011295371B60054193B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Task_Watch_Day-8 Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 65Y36WN836;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Task_Watch_Day-8";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alen.app.Task-Watch-Day-8.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		18246014295371B60054193B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65Y36WN836;
+				INFOPLIST_KEY_CFBundleDisplayName = "Task_Watch_Day-8";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alen.app.Task-Watch-Day-8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		18246015295371B60054193B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65Y36WN836;
+				INFOPLIST_KEY_CFBundleDisplayName = "Task_Watch_Day-8";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alen.app.Task-Watch-Day-8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18245FF6295371B30054193B /* Build configuration list for PBXProject "Task_Watch_Day-8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1824600D295371B60054193B /* Debug */,
+				1824600E295371B60054193B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1824600F295371B60054193B /* Build configuration list for PBXNativeTarget "Task_Watch_Day-8 Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18246010295371B60054193B /* Debug */,
+				18246011295371B60054193B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18246013295371B60054193B /* Build configuration list for PBXNativeTarget "Task_Watch_Day-8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18246014295371B60054193B /* Debug */,
+				18246015295371B60054193B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18246016295372050054193B /* Task.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18246017295372050054193B /* Task.xcdatamodel */,
+			);
+			currentVersion = 18246017295372050054193B /* Task.xcdatamodel */;
+			path = Task.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18245FF3295371B30054193B /* Project object */;
+}
