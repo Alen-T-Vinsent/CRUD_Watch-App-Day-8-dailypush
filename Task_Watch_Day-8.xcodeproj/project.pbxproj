@@ -16,6 +16,8 @@
 		1885CBF8295372AE00830CAC /* PersistenceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885CBF7295372AE00830CAC /* PersistenceContainer.swift */; };
 		1885CBFC295375A100830CAC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885CBFB295375A100830CAC /* Home.swift */; };
 		1885CC00295379F300830CAC /* AddItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885CBFF295379F300830CAC /* AddItem.swift */; };
+		1885CC0229538ED800830CAC /* ViewMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885CC0129538ED800830CAC /* ViewMemo.swift */; };
+		1885CD5A2961D2BA00830CAC /* PersistentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885CD592961D2BA00830CAC /* PersistentController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		1885CBF7295372AE00830CAC /* PersistenceContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceContainer.swift; sourceTree = "<group>"; };
 		1885CBFB295375A100830CAC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		1885CBFF295379F300830CAC /* AddItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItem.swift; sourceTree = "<group>"; };
+		1885CC0129538ED800830CAC /* ViewMemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMemo.swift; sourceTree = "<group>"; };
+		1885CD592961D2BA00830CAC /* PersistentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,13 +90,12 @@
 		18246003295371B40054193B /* Task_Watch_Day-8 Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				1885CD582961D28800830CAC /* shared */,
 				18246004295371B40054193B /* Task_Watch_Day_8App.swift */,
 				18246006295371B40054193B /* ContentView.swift */,
 				1885CBFE295375C500830CAC /* ViewModel */,
 				1885CBFD295375A800830CAC /* Model */,
 				1885CBFA2953759200830CAC /* View */,
-				1885CBF7295372AE00830CAC /* PersistenceContainer.swift */,
-				18246016295372050054193B /* Task.xcdatamodeld */,
 				18246008295371B60054193B /* Assets.xcassets */,
 				1824600A295371B60054193B /* Preview Content */,
 			);
@@ -111,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				1885CBFB295375A100830CAC /* Home.swift */,
+				1885CC0129538ED800830CAC /* ViewMemo.swift */,
 				1885CBFF295379F300830CAC /* AddItem.swift */,
 			);
 			path = View;
@@ -128,6 +132,16 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1885CD582961D28800830CAC /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				18246016295372050054193B /* Task.xcdatamodeld */,
+				1885CD592961D2BA00830CAC /* PersistentController.swift */,
+				1885CBF7295372AE00830CAC /* PersistenceContainer.swift */,
+			);
+			path = shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,10 +242,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1885CD5A2961D2BA00830CAC /* PersistentController.swift in Sources */,
 				18246018295372050054193B /* Task.xcdatamodeld in Sources */,
 				1885CBF8295372AE00830CAC /* PersistenceContainer.swift in Sources */,
 				1885CC00295379F300830CAC /* AddItem.swift in Sources */,
 				1885CBFC295375A100830CAC /* Home.swift in Sources */,
+				1885CC0229538ED800830CAC /* ViewMemo.swift in Sources */,
 				18246007295371B40054193B /* ContentView.swift in Sources */,
 				18246005295371B40054193B /* Task_Watch_Day_8App.swift in Sources */,
 			);

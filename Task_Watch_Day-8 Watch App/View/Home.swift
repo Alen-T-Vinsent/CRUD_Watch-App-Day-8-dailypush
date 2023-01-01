@@ -1,68 +1,77 @@
-//
-//  Home.swift
-//  Task_Watch_Day-8 Watch App
-//
-//  Created by Apple  on 21/12/22.
-//
-
 import SwiftUI
 
 struct Home: View {
     
     var body: some View {
-        //Geometry Ready For Greeting Frame....
-        GeometryReader{reader in
-            let rect = reader.frame(in: .global)
-            VStack(spacing:15){
-                HStack(spacing:25){
-                    //Buttons
-                    NavigationLink {
-                        AddItem()
-                    } label: {
-                        NavButton(image: "plus", title: "Memo", rect: rect, color: Color.pink)
-                    }
-                    .buttonStyle(PlainButtonStyle())
-
+        NavigationView {
+            //Geometry Ready For Greeting Frame....
+            GeometryReader{reader in
+                let rect = reader.frame(in: .global)
+                VStack(spacing:15){
+                    HStack(spacing:25){
+                        //Buttons
+                        NavigationLink {
+                            AddItem()
+                        } label: {
+                            NavButton(image: "plus", title: "Memo", rect: rect, color: Color.pink)
+                        }
+                        .buttonStyle(PlainButtonStyle())
+                        
+                        
+                        
+                        NavigationLink {
+                            AddItem()
+                        } label: {
+                            NavButton(image: "trash", title: "delete", rect: rect, color: Color.red)
+                        }
+                        .buttonStyle(PlainButtonStyle())
+                        
+                    }///hstack
+                    .frame(width: rect.width,alignment: .center)
                     
                     
-                    NavigationLink {
-                        AddItem()
-                    } label: {
-                        NavButton(image: "trash", title: "delete", rect: rect, color: Color.red)
-                    }
-                    .buttonStyle(PlainButtonStyle())
-
-                }///hstack
-                .frame(width: rect.width,alignment: .center)
+                    
+                    HStack(spacing:25){
+                        //Buttons
+                        
+                        NavigationLink(destination: ViewMemo(), label: {
+                            NavButton(image: "doc.plaintext", title: "Memo", rect: rect, color: Color.blue)
+                        })
+                        .buttonStyle(PlainButtonStyle())
+                        
+                        
+                        
+                        NavigationLink {
+                            AddItem()
+                        } label: {
+                            NavButton(image: "star", title: "Rating", rect: rect, color: Color.orange)
+                        }
+                        .buttonStyle(PlainButtonStyle())
+                        
+                        
+                    }///hstack
+                    .frame(width: rect.width,alignment: .center)
+                    
+                }
                 
-                
-                
-                HStack(spacing:25){
-                    //Buttons
-                    
-                    NavigationLink(destination: AddItem(), label: {
-                        NavButton(image: "doc.plaintext", title: "Memo", rect: rect, color: Color.blue)
-                    })
-                    .buttonStyle(PlainButtonStyle())
-                    
-                    
-                    
-                    NavigationLink {
-                        AddItem()
-                    } label: {
-                        NavButton(image: "star", title: "Rating", rect: rect, color: Color.orange)
-                    }
-                    .buttonStyle(PlainButtonStyle())
-
-                   
-                }///hstack
-                .frame(width: rect.width,alignment: .center)
                 
             }
             
-            
         }
-    }
+        }
+        
+//        NavigationLink {
+//            NewDA()
+//        } label: {
+//            Image(systemName: "person.fill")
+//        }
+//
+//        Text("hello")
+//            .font(.title)
+//            .onTapGesture {
+//                print("hello pressed")
+//            }
+    
 }
 
 struct NavButton:View{
